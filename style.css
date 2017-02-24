@@ -1,0 +1,16 @@
+.wrapper {
+	height: 400px;
+	width: 550px;
+	background: #900C3F;
+	margin: 60px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.display {
+	font-family: 'Righteous', cursive;
+	font-size: 4.5em;
+	color: #D6DBDF;
+}
