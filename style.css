@@ -1,7 +1,6 @@
 .wrapper {
 	height: 400px;
 	width: 550px;
-	background: #900C3F;
 	margin: 60px auto;
 	display: flex;
 	flex-direction: row;

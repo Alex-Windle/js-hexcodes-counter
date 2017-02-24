@@ -1,14 +1,14 @@
 var display = document.querySelector('.display'); 
+var wrapper = document.querySelector('.wrapper'); 
 
 window.setInterval(function displayTime () {
 	var date = new Date(); 
 	var hours = date.getHours();
 	var minutes = date.getMinutes();
 	var seconds = date.getSeconds();
-	var colon = ":"; 
 
-	if (hours > 12) {
-		hours = "0" + (hours - 12);
+	if (hours < 10) {
+		hours = "0" + hours;
 	}
 
 	if (minutes < 10) {
@@ -19,5 +19,7 @@ window.setInterval(function displayTime () {
 		seconds = "0" + seconds;
 	}
 
-	display.textContent = hours + colon + minutes + colon + seconds;
-}, 1000);
+	var hexcode = "#" + hours + minutes + seconds;
+	wrapper.style.background = hexcode; 
+	display.textContent = hexcode;
+}, 2000);
