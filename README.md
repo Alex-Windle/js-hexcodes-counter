@@ -1,11 +1,9 @@
-# JS Clock
+# JS Hexcodes Counter
 
 The objective of this exercise is to practice core JavaScript fundamentals, including:
 
-* Window timers
-* Date object
-* Flex box
-* Google Fonts
-* DOM API
+* DOM API style object
 
-See the [clock](https://alex-windle.github.io/js-clock/) live.
+This Hexcode Counter is a modification to the JS Clock. When the hex code changes, then the color changes to match!
+
+See the [counter]() live.
